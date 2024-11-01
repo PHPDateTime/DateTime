@@ -1,0 +1,21 @@
+{
+    "name": "potter/date-time",
+    "description": "PHP DateTimeInterface Implementation",
+    "type": "library",
+    "require": {
+        "php": "^8.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Potter\\DateTime\\": "src/Potter/DateTime/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "j@ypotter.ca"
+        }
+    ],
+    "minimum-stability": "stable"
+}
