@@ -3,7 +3,8 @@
     "description": "PHP DateTimeInterface Implementation",
     "type": "library",
     "require": {
-        "php": "^8.3"
+        "php": "^8.3",
+        "potter/time-zone": "dev-main"
     },
     "license": "MIT",
     "autoload": {
@@ -17,5 +18,5 @@
             "email": "j@ypotter.ca"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "dev"
 }
