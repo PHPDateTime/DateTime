@@ -4,8 +4,9 @@
     "type": "library",
     "require": {
         "php": "^8.3",
+        "potter/json-serializable": "dev-main",
         "potter/time-zone": "dev-main",
-        "nesbot/carbon": "^3.0@dev"
+        "nesbot/carbon": "^3.0@dev"        
     },
     "license": "MIT",
     "autoload": {
