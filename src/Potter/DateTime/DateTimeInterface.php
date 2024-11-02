@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Potter\DateTime;
 
-use \DateTimeInterface as BaseDateTimeInterface,
-    DateInterval, DateTimeZone;
+use Carbon\CarbonInterface, DateInterval, DateTimeZone,
+    \DateTimeInterface as BaseDateTimeInterface;
 
-interface DateTimeInterface extends BaseDateTimeInterface
+interface DateTimeInterface extends CarbonInterface
 {   
     public function diff(BaseDateTimeInterface $targetObject, bool $absolute = false): DateInterval;
     public function format(string $format): string;
