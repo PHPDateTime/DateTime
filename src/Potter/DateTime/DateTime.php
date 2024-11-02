@@ -4,12 +4,12 @@ declare(strict_types=1);
 
 namespace Potter\DateTime;
 
-use DateTimeZone;
-use Potter\DateTime\Zone\TimeZone;
+use Carbon\CarbonTimeZone, DateTimeZone,
+    Potter\DateTime\Zone\TimeZone;
 
 final class DateTime extends AbstractDateTime
 {
-    public function getTimezone(): DateTimeZone|false
+    public function getTimezone(): CarbonTimeZone
     {
         return ($timeZone = parent::getTimezone()) === false ?
             false : TimeZone::inherit($timeZone);
