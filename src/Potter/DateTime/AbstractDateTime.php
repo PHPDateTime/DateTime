@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Potter\DateTime;
 
-use \DateTime as BaseDateTime;
+use Carbon\Carbon;
 
-abstract class AbstractDateTime extends BaseDateTime implements DateTimeInterface
+abstract class AbstractDateTime extends Carbon implements DateTimeInterface
 { }
