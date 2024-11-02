@@ -5,9 +5,10 @@ declare(strict_types=1);
 namespace Potter\DateTime;
 
 use Carbon\CarbonInterface, DateInterval, DateTimeZone,
-    \DateTimeInterface as BaseDateTimeInterface;
+    \DateTimeInterface as BaseDateTimeInterface,
+    Potter\Json\Serializable\JsonSerializableInterface;
 
-interface DateTimeInterface extends CarbonInterface
+interface DateTimeInterface extends CarbonInterface, JsonSerializableInterface
 {   
     public function diff(BaseDateTimeInterface $targetObject, bool $absolute = false): DateInterval;
     public function format(string $format): string;
