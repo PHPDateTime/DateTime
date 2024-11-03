@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace PHPDateTime;
 
-use Carbon\CarbonTimeZone, Potter\DateTime\Zone\TimeZone;
+use Carbon\CarbonTimeZone, PHPDateTime\Zone\TimeZone;
 
 final class DateTime extends AbstractDateTime
 {
