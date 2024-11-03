@@ -1,5 +1,5 @@
 {
-    "name": "PHPDateTime/date-time",
+    "name": "phpdatetime/date-time",
     "description": "PHP DateTimeInterface Implementation",
     "type": "library",
     "require": {
