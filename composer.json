@@ -5,7 +5,7 @@
     "require": {
         "php": ">=8.3",
         "php-date-time/time-zone": "dev-main",
-        "potter/json-serializable": "dev-main",
+        "php-ables/json-serializable": "dev-main",
         "nesbot/carbon": "^3.8"     
     },
     "license": "MIT",
