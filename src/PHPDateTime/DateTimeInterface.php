@@ -6,7 +6,7 @@ namespace PHPDateTime;
 
 use Carbon\CarbonInterface, DateInterval, DateTimeZone,
     \DateTimeInterface as BaseDateTimeInterface,
-    PHPAbles\Json\Serializable\JsonSerializableInterface;
+    PHPAbles\Json\JsonSerializableInterface;
 
 interface DateTimeInterface extends CarbonInterface, JsonSerializableInterface
 {   
