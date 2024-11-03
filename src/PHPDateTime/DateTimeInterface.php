@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Potter\DateTime;
+namespace PHPDateTime;
 
 use Carbon\CarbonInterface, DateInterval, DateTimeZone,
     \DateTimeInterface as BaseDateTimeInterface,

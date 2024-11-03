@@ -2,10 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Potter\DateTime;
+namespace PHPDateTime;
 
-use Carbon\CarbonTimeZone, DateTimeZone,
-    Potter\DateTime\Zone\TimeZone;
+use Carbon\CarbonTimeZone, Potter\DateTime\Zone\TimeZone;
 
 final class DateTime extends AbstractDateTime
 {
